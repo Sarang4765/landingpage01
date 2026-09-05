@@ -1,1 +1,108 @@
 
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Telegram Invite
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1342937734205538');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1342937734205538&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+ </head>
+ <body class="bg-white text-center text-black">
+  <div class="w-full bg-[#0096FF] py-2">
+   <p class="text-white text-base">
+    Don’t have
+    <a class="font-bold underline" href="https://web.telegram.org/" target="_blank">
+ Telegram
+</a>
+yet? Try it now!
+   </p>
+  </div>
+  <div class="pt-6 pb-4">
+    <img alt="Marathi Share Bazaar Logo" class="mx-auto rounded-full" height="100" src="https://i.ibb.co/LzvrkfRq/photo-6204203005402353686-c.jpg" width="100"/>
+  </div>
+  
+  <h1 class="text-3xl font-extrabold mb-2 flex justify-center items-center gap-2 px-4">
+   <span>
+मराठी ट्रेडिंग कट्टा 🚩🧿
+   </span>
+  </h1>
+  <p class="text-base mb-4">
+   17295 subscribers
+  </p>
+  <p class="text-base mb-2 px-4 max-w-[320px] mx-auto">
+   <span class="inline-block align-middle">
+    <img alt="Emoji of man with glasses" class="inline" height="20" src="https://storage.googleapis.com/a1aa/image/c60b68cc-4aa8-46d6-1973-18395cde8194.jpg" width="20"/>
+   </span>
+   Start Your Profitable Journey with US
+  </p>
+  <p class="text-base mb-2 px-4 max-w-[320px] mx-auto">
+   🚀 ऍडव्हान्स कॉल आणि active झाल्यावर active मेसेज येणार
+  </p>
+  <p class="text-base mb-4 px-4 max-w-[320px] mx-auto">
+   ✅ आताच lifetime फ्री ग्रुप जॉईन करा👇🏻
+  </p>
+  <p class="text-lg font-semibold text-red-600 mb-4">
+   Invitation closes in
+   <span id="countdown">10</span> s
+  </p>
+  <a id="join-now-btn"
+   href="https://t.me/+dt8mqaKpLCY2Njdl"
+   target="_blank" rel="noopener noreferrer"
+   class="inline-block bg-[#0078D7] text-white text-base font-normal py-2 px-6 rounded-md mb-6">
+   VIEW IN TELEGRAM
+  </a>
+
+  <p class="text-gray-600 text-sm mb-6 px-4 max-w-[320px] mx-auto">
+   If you have Telegram you can view and join, ट्रेडिंग कट्टा 🔝🚀🤝 right away.
+  </p>
+
+  <script>
+   let timeLeft = 10;
+   const countdownEl = document.getElementById('countdown');
+   
+
+   const timer = setInterval(() => {
+     if(timeLeft <= 0){
+       clearInterval(timer);
+       countdownEl.textContent = '0';
+       // Auto click after countdown ends
+       joinBtn.click();
+     } else {
+       countdownEl.textContent = timeLeft;
+     }
+     timeLeft -= 1;
+   }, 1000);
+
+   // Facebook Pixel custom event on button click
+   joinBtn.addEventListener('click', function () {
+     fbq('trackCustom', 'JoinNowClicked');
+   });
+  </script>
+ </body>
+</html>
